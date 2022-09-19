@@ -15,6 +15,7 @@ jobs:
             - v1-dependencies-
 
       # run build
+      # run fonal build
       - run:
           name: install dependencies
           command: |
