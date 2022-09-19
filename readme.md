@@ -56,7 +56,7 @@ This process makes sure that the code quality is always as good as possible.
 
 Public LB DNS: http://serve-webap-1tfz176ek76sq-1376017802.us-east-1.elb.amazonaws.com/
 
-![Access LB DNS](./screenshots/access_lb_dns_demo.PNG)
+![Access LB DNS](./screenshots/access_lb_dns_demo.png)
 
 
 ## Access the Application
