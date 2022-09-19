@@ -54,6 +54,11 @@ This process makes sure that the code quality is always as good as possible.
 
 ![Linting step fail](./screenshots/linting_step_success.png)
 
+Public LB DNS: http://serve-webap-1tfz176ek76sq-1376017802.us-east-1.elb.amazonaws.com/
+
+![Access LB DNS](./screenshots/access_lb_dns_demo.PNG)
+
+
 ## Access the Application
 
 After the EKS-Cluster has been successfully configured using Ansible within the CI/CD Pipeline, I checked the deployment and service as follows:
@@ -62,9 +67,3 @@ After the EKS-Cluster has been successfully configured using Ansible within the 
 $ kubectl get deployments
 NAME                          READY   UP-TO-DATE   AVAILABLE   AGE
 capstone-project-deployment   4/4     4            4           68m
-
-
-Public LB DNS: http://serve-webap-1tfz176ek76sq-1376017802.us-east-1.elb.amazonaws.com/
-
-![Access LB DNS]
-(./screenshots/access_lb_dns_demo.png)
